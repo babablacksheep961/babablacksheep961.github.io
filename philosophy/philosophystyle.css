@@ -1,0 +1,178 @@
+body{
+  padding:5px;
+  margin:10px; 
+  height: auto;
+  /*border:1px solid black;*/
+}
+header{
+  position: sticky;
+  height: 80px;
+  width: 1200px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 15px;
+  margin-bottom: 15px;
+  padding: 3px;
+  top:-5px;
+  background-color: white;
+  z-index: 2;
+  background-color: white;
+   /*border:1px solid black;*/
+}
+
+#head-style{
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 25px;
+  font-weight: 300;
+  position:absolute;
+  display: inline-block;
+  width: 180px;;
+  left:230px;
+  right:795px;
+  top: 15px;
+  /*border:1px solid black;*/
+}
+
+/* anchor tag style */
+
+a{
+  text-decoration:none;
+  color:black;
+}
+.link-style:hover{
+  text-decoration: none;
+  font-weight: bolder;
+  transition: 0.1s ease-in;
+  color: black;
+}
+
+/* Heading Style with anchor tag*/
+a.center_heading{
+  display: inline-block;
+  position: absolute;
+  /*font-family: 'Martel', serif;*/
+  font-family: 'Playfair Display SC', serif;
+
+  left:0px;
+  right:980px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  font-size: 40px;
+  font-weight: 400;
+  width: 225px;
+  padding:0px;
+   /*border:1px solid black;*/
+}
+
+
+
+/*ul style*/
+
+.list-style{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/*list content style*/
+
+.list-content-style{
+  padding-bottom: 5px;
+}
+
+/*containers*/
+
+.container{
+  position: relative;
+  height: 300px;
+  width: 990px;
+  margin:auto;
+  margin-bottom: 20px;
+  padding:5px;
+  background-color: white;
+  /*border:1px solid black;*/ 
+}
+
+.inner-container-level1{
+  position: absolute;
+  height:200px;
+  width:200px;
+  margin:auto;
+  margin-bottom: 20px;
+  padding:5px;
+  font-size:x-large;
+  
+ /*border:1px solid black;*/
+}
+
+/*Navigation*/
+
+#work-nav{
+  width: 150px;
+  margin-left: 12px;
+  display: inline-block;
+  position: fixed;
+  top: 170px;
+  font-family: 'Roboto Mono'; 
+ /* border:1px solid black;*/
+  height: 90px;
+}
+/* Main showcase */
+#work-section{
+  display: inline-block;
+  width: 1005px;
+  margin: 12px;
+  left: 180px;
+  padding:10px;
+  border-left: 2px solid black;
+  height: 600px;
+}
+
+/*footer*/
+
+.footer-logo{
+  position: absolute;
+  margin:0;
+  top:35px;
+  padding: 0px;
+  height: 35px;
+  width: 35spx;
+  /*border:1px solid black;*/
+}
+
+.footer-container{
+ height: 100px;
+ margin-top: 85px;
+ /*border:1px solid black;*/ 
+ font-family: 'Noto Serif JP', serif;
+ 
+}
+
+.footernavbar{
+  display: inline-block;
+  padding: 0px;
+  text-decoration-style: none;
+}
+
+#mail-logo{
+  left:535px;
+}
+#insta-logo{
+  left:485px;
+}
+  
+#credits{
+  height:20px;
+  margin:0;
+  top:70px;
+  width: 400px;
+  font-size: small;
+  font-style: italic;
+}
+.footer-logo:hover{
+  position: absolute;
+  margin:0;
+  top:35px;
+  padding: 0px;
+  height: 40px;
+  width: 40spx;
+}

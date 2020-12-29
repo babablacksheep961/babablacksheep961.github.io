@@ -1,0 +1,225 @@
+body{
+  margin:10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding:5px;
+  background-color:white;
+  /*border:1px solid black;*/
+  height:auto;
+
+}
+header{
+  position: sticky;
+  height: 135px;
+  width: 1000px;
+  margin:auto;
+  margin-bottom: 15px;
+  padding: 3px;
+  top:-20px;
+  background-color: white;
+  z-index: 2;
+  background-color: white;
+  /*border:1px solid black;*/
+}
+
+a.center_heading{
+  display: inline-block;
+  position: absolute;
+  /*font-family: 'Martel', serif;*/
+  font-family: 'Playfair Display SC', serif;
+  left:397px;
+  right:397px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 40px;
+  font-weight: 400;
+  
+  width: 220px;
+  padding:0px;
+}
+
+.underline1{
+  border: 0;
+  height: 1.5px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+nav{
+  position: absolute;
+  display: inline-block;
+  top: 72px;
+  margin: 5px;
+  left: 250px;
+  right:241px;
+  
+  width:500px;
+  text-align: center;
+  font-family: 'Roboto Mono'; 
+  /*border:1px solid black;*/
+}
+
+.navbar1{
+  display: inline-block;
+  padding: 8px;
+  text-decoration-style: none;
+}
+
+.link-style{
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  transition: 0.2s ease-out;
+}
+a{
+  text-decoration:none;
+  color:black;
+  transition:0.2s ease-out ;
+}
+.link-style:hover{
+  text-decoration: none;
+  font-weight: bolder;
+  transition: 0.2s ease-in;
+  color: black;
+}
+
+.list-style{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  position: relative;
+  height: 300px;
+  width: 990px;
+  margin:auto;
+  margin-bottom: 20px;
+  padding:5px;
+  background-color: white;
+ /* border:1px solid black; */ 
+}
+
+.about-me-quotes{
+  height:270px;
+}
+.inner-container-level1{
+  position: absolute;
+  height:200px;
+  width:200px;
+  margin:auto;
+  margin-bottom: 20px;
+  padding:5px;
+  font-size:x-large;
+  
+ /*border:1px solid black;*/
+}
+
+#walking-man-image{
+  position: absolute;
+  height:250px;
+  width:200px;
+  left:732px;
+  right:60px;
+  padding:8px;
+  border-left: 2px solid black; 
+}
+
+#about-me-cont{
+  text-align: right;
+  left:200px;
+  top:35px;
+  right: 280px;
+  width:500px;
+  height:190px;
+  padding:10px;
+  font-family: 'Parisienne', cursive;
+ /* border:1px solid black; */
+}
+
+.timeline-container{
+  padding: 15px;
+  background-color:white;
+  margin-top: 55px;;
+  text-align: left;
+  height: 700px;
+  width:970px;
+  /*border:1px solid black;*/ 
+}
+
+.last-added-container{
+  
+   background-color: white;
+   margin-left: 10px;
+   margin-top: 10px;
+   height: 675px;
+   width: 950px;
+   padding:0px;
+   font-family: 'Roboto Mono'; 
+}
+
+.vertical-line{
+  position: absolute;
+  display: inline-block;
+  left: 0px;
+  margin-left: 15px;
+  padding: 0;
+  height:inherit;
+  border-left:2px solid black;
+}
+
+#last-added{
+  display:inline-block;
+  /*border: 1px solid black;*/
+  margin-left: 4px;
+  width: 942px;
+  padding: 3px;
+
+}
+.footer-logo{
+  position: absolute;
+  margin:0;
+  top:35px;
+  padding: 0px;
+  height: 35px;
+  width: 35spx;
+  /*border:1px solid black;*/
+}
+
+.footer-container{
+ height: 100px;
+ margin-top: 85px;
+ /*border:1px solid black;*/ 
+ font-family: 'Noto Serif JP', serif;
+ 
+}
+
+.footernavbar{
+  display: inline-block;
+  padding: 0px;
+  text-decoration-style: none;
+}
+
+#mail-logo{
+  left:535px;
+}
+#insta-logo{
+  left:485px;
+}
+  
+#credits{
+  height:20px;
+  margin:0;
+  top:70px;
+  width: 400px;
+  font-size: 11px;
+  font-style: normal;
+}
+.footer-logo:hover{
+  position: absolute;
+  margin:0;
+  top:35px;
+  padding: 0px;
+  height: 40px;
+  width: 40spx;
+}
